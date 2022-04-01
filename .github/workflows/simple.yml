@@ -9,4 +9,4 @@ jobs:
       - name: multiline script
         run: |
           node -v
-          ls -ls
+          ls -l
