@@ -8,6 +8,10 @@ jobs:
         run: |
           pwd
           ls -larth
+      - name: Checkout
+        uses: actions/checkout@v1
+      - name: List Files After Checkout
+        run: ls -larth
       - name: Simple JS Actions
         id: greet
         uses: actions/hello-world-javascript-action@v1
